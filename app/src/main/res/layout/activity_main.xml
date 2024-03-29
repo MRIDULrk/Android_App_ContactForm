@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Form"
+        android:textSize="50sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:background="#aaa"
+        android:padding="10dp">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#aaa">
+
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            >
+        </ImageView>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/name"
+        android:hint="Name"
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:maxLines="1"
+        android:padding="25dp"
+        android:background="#8F8C8C"
+        />
+
+    <EditText
+        android:id="@+id/email"
+        android:hint="Email"
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:background="#8F8C8C"
+        android:padding="25dp"
+        android:maxLines="1"
+        />
+
+    <EditText
+        android:id="@+id/homephone"
+        android:hint="Phone (Home)"
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:padding="25dp"
+        android:background="#8F8C8C"
+        android:maxLines="1"
+        />
+
+    <EditText
+        android:id="@+id/officephone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:hint="Phone (Office)"
+        android:maxLines="1"
+        android:textSize="30sp"
+        android:padding="25dp"
+        android:background="#8F8C8C"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#aaa">
+
+        <Button
+            android:id="@+id/show"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="#6C6D6E"
+            android:text="show"
+            android:layout_gravity="bottom"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="#6C6D6E"
+            android:text="Save"
+            android:layout_gravity="bottom"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
